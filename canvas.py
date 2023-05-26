@@ -2,11 +2,11 @@ import tkinter as tk
 
 root = tk.Tk()
 
-canvas = tk.Canvas(root, width=1000, height=600);
+canvas = tk.Canvas(root, width=2000, height=1500);
 
 canvas.pack()
 
-radius = 10
+radius = 2
 
 def handleDrag(event):
 	x = event.x
